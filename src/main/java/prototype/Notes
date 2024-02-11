@@ -1,0 +1,6 @@
+We have a complex object that is costly to create
+To create more instances of such class, we can use existing instance as our prototype
+
+Prototype will allow us to make copies of existing object
+& Save us from having to recreate objects from scratch
+

@@ -1,0 +1,5 @@
+
+
+1. We have a complex process to construct an object involving multiple steps then builder design pattern can help us
+
+2. In builder we remove the logic related to object construction from "client" code & abstract it in separate class

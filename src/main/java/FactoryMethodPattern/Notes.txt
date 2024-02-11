@@ -1,0 +1,14 @@
+
+Factory Method is a creational design pattern that provides an interface for creating objects in a superclass,
+but allows subclasses to alter type of objects that will be created.
+
+
+Factory Method is used when
+
+1. We Want to move the object creation logic from our code to a separate class
+
+2. We use this pattern when we do not know in advance which class we may need to instantiate
+beforehand & also to allow new classes to be added to system and handle their creation without affecting client code
+
+3. We let subclasses decide which object to instantiate  by overriding the factory method
+
