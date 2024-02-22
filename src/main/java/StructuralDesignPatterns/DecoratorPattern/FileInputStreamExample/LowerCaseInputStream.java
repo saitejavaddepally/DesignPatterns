@@ -1,4 +1,4 @@
-package DecoratorPattern.FileInputStreamExample;
+package StructuralDesignPatterns.DecoratorPattern.FileInputStreamExample;
 
 import java.io.FileInputStream;
 import java.io.FilterInputStream;

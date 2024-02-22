@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package StructuralDesignPatterns.DecoratorPattern;
 
 public class Espresso extends Beverage{
     @Override

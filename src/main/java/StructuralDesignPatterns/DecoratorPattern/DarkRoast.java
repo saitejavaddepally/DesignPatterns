@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package StructuralDesignPatterns.DecoratorPattern;
 
 public class DarkRoast extends Beverage {
     public DarkRoast() {

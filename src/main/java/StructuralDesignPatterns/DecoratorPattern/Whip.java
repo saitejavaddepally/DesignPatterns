@@ -1,4 +1,4 @@
-package DecoratorPattern;
+package StructuralDesignPatterns.DecoratorPattern;
 
 public class Whip extends AddOnDecorator {
     Beverage beverage;
