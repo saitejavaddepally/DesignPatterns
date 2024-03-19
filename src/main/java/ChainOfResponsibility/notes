@@ -9,3 +9,24 @@ the request
 We create objects which are chained together by one object knowing reference of object which is next in chain.
 We give request to first object in chain, If it can't handle that it simply passes the request down the chain.
 
+Implement Chain of responsibility
+-----------------------------------
+
+We start by defining handler interface/abstract class
+    1. Handler must define a method to accept incoming request
+    2. Handler can define method to access successor in chain. If it's an abstract class then
+        we can even maintain successor
+
+IMPLEMENTATION CONSIDERATIONS:
+
+    1. Prefer defining handler as interface as it allows you to implement chain of responsibility
+    without worrying about single inheritance rule of java
+
+    2. handler can allow the request to propagate even if they handle the request. Servlet filter chains allow request to flow to
+    next filter even if they perform some action on request
+
+    3. Chain can be described using XML or JSON as well so that you can add & remove handlers.
+
+Example of a Chain of responsibility:
+
+javax.Servlet.Filter
